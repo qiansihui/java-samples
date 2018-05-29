@@ -1,0 +1,13 @@
+server:
+    port: 8085
+
+logging:
+    level:
+        spring.boot.basic: trace
+
+spring:
+    http:
+      encoding:
+        charset: utf-8
+        enabled: true
+        force: true

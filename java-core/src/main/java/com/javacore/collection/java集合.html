@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+1.集合概念和作用
+2.java集合体系
+2.1 java集合类由两个接口派生:Collection/Map
+2.2 <a href="collection继承树.png"></a>
+2.3 <a href="Map继承树.png"></a>
+3.Collection集合常规用法
+4.Iterator/foreach遍历
+5.HashSet/LinkedHashSet用法
+5.1 HashSet 特点:不保证顺序/不是同步的/元素值可null
+5.2 HasSet存入元素时,调用该对象hashCode方法得到hashCode值,决定该对象在HashSet中存储位置.
+5.3 LinkedHashSet 根据hashCode决定元素位置,使用链表维护元素次序
+6.TreeSet
+6.1 TreeSet 根据元素实际值排序 采用红黑树的数据结构
+6.2 自然排序/定制排序
+6.3 TreeSet中添加应该是同一个类的对象/须实现Commparable接口
+6.3 可想TreeSet构造器传入Comparator匿名类自定义排序规则
+7.EnumSet
+7.专为枚举类设计的集合类,方便枚举转化为集合类,求交集补集..
+8.List集合常规用法
+
+9.ArrayList/Vector
+10.定长List集合
+11.LinkedList
+11.1 ArrayList/Vector内部以数组形式保存集合元素,随机访问有较好性能
+11.2 LinkedList内部以链表形式保存集合元素,随机访问性能较差,但插入删除元素性能出色
+11.3 LinkedList出List外还提供了双向队列/栈功能
+12.Queue
+13.PriorityQueue
+13.1 比较标准的队列实现,PriorityQueue按队列元素大小排序.
+14.Map
+15.HahMap/Hashtable
+16.TreeMap
+17.几种特殊Map实现类
+18.Hash算法对HashSet/HashMap性能影响
+19.Collections工具类
+20.Enumeration迭代器
+
+</body>
+</html>

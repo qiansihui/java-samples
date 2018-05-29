@@ -1,0 +1,21 @@
+{
+  "name": "d3-show",
+  "version": "1.0.0",
+  "description": "d3 study",
+  "main": "index.js",
+  "scripts": {
+    "start": "supervisor server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "d3"
+  ],
+  "author": "qianqian.sun",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.13.3",
+    "express-http-proxy": "^0.11.0",
+    "supervisor": "^0.12.0"
+  }
+}
